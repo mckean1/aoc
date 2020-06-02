@@ -11,7 +11,8 @@ namespace Aoc.Problems
         
         public void Solve()
         {
-            Console.WriteLine("Solving")
+            Logger.Start(nameof(DayThreePartOneProblem));
+            Logger.Complete(nameof(DayThreePartOneProblem));
         }
     }
 }

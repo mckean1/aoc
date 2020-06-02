@@ -9,7 +9,7 @@ namespace Aoc
             Console.WriteLine($"Solving {problemName}.");
         }
 
-        public static void Finish(string problemName)
+        public static void Complete(string problemName)
         {
             Console.WriteLine($"Finished {problemName}.");
         }

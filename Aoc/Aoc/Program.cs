@@ -1,12 +1,13 @@
-﻿using System;
+﻿using Aoc.Problems;
 
 namespace Aoc
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            DayThreePartOneProblem problem = new DayThreePartOneProblem();
+            problem.Solve();
         }
     }
 }
