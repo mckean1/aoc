@@ -1,4 +1,4 @@
-﻿namespace Aoc
+﻿namespace Aoc.Interfaces
 {
     public interface IProblem
     {

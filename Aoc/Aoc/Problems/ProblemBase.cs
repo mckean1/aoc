@@ -14,8 +14,7 @@ namespace Aoc.Problems
                 throw new ArgumentNullException(nameof(name));
             }
 
-            return name.Replace("PartOne", string.Empty)
-                       .Replace("PartTwo", string.Empty) + ".txt";
+            return @$"InputFiles/{name.Replace("PartOne", string.Empty).Replace("PartTwo", string.Empty)}.txt";
         }
 
         protected string[] GetInput()

@@ -1,4 +1,6 @@
-﻿namespace Aoc.Problems
+﻿using Aoc.Interfaces;
+
+namespace Aoc.Problems
 {
     public class DayThreePartOneProblem : ProblemBase, IProblem
     {
@@ -9,6 +11,7 @@
         
         public void Solve()
         {
+            Console.WriteLine("Solving")
         }
     }
 }
