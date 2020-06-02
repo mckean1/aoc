@@ -11,7 +11,7 @@ namespace Aoc
 
         public static void Finish(string problemName)
         {
-            Console.WriteLine($"Finished {problemName}");
+            Console.WriteLine($"Finished {problemName}.");
         }
 
         public static void Log(string text)
